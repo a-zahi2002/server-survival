@@ -1,0 +1,33 @@
+{
+  "name": "server-survival",
+  "version": "1.0.0",
+  "description": "![Gameplay Demo](assets/gameplay.gif)",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build:css": "npx @tailwindcss/cli -i ./input.css -o ./dist/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-zahi2002/server-survival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/a-zahi2002/server-survival/issues"
+  },
+  "homepage": "https://github.com/a-zahi2002/server-survival#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.0",
+    "electron": "^40.6.0",
+    "tailwindcss": "^4.2.0"
+  },
+  "dependencies": {
+    "three": "^0.128.0"
+  }
+}
